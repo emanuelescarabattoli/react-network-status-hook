@@ -3,7 +3,7 @@
 .babelrc
 .eslintrc.json
 .gitignore
-ReactTopProgressBar.js
+ReactNetworkStatusHook.js
 webpack.config.js
 yarn.lock
 /docs

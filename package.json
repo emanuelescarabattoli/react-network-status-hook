@@ -9,7 +9,7 @@
     "network",
     "status"
   ],
-  "version": "1.0.9",
+  "version": "1.0.11",
   "main": "./dist/index.js",
   "author": {
     "name": "Emanuele Scarabattoli",
