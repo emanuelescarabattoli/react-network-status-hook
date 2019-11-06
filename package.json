@@ -1,0 +1,43 @@
+{
+  "name": "react-network-status-hook",
+  "description": "A react hook to detect offline or online status",
+  "keywords": [
+    "react",
+    "offline",
+    "online",
+    "hook",
+    "network",
+    "status"
+  ],
+  "version": "1.0.9",
+  "main": "./dist/index.js",
+  "author": {
+    "name": "Emanuele Scarabattoli",
+    "email": "em.scarabattoli@gmail.com",
+    "url": "https://github.com/emanuelescarabattoli"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emanuelescarabattoli/react-network-status-hook.git"
+  },
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "peerDependencies": {
+    "react": "*"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.6.0",
+    "eslint-plugin-react": "^7.16.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
