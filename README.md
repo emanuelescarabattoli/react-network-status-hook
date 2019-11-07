@@ -15,6 +15,7 @@ npm install react-network-status-hook
 Just import the Hook and use it to detect offline or online status
 
 ```
+import React from "react";
 import useNetworkState from "react-network-status-hook";
 
 const MyComponent = () => {

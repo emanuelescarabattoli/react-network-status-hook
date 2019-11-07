@@ -9,8 +9,8 @@
     "network",
     "status"
   ],
-  "version": "1.0.11",
-  "main": "./dist/index.js",
+  "version": "1.0.13",
+  "main": "./index.js",
   "author": {
     "name": "Emanuele Scarabattoli",
     "email": "em.scarabattoli@gmail.com",
@@ -21,18 +21,10 @@
     "type": "git",
     "url": "https://github.com/emanuelescarabattoli/react-network-status-hook.git"
   },
-  "scripts": {
-    "build": "webpack --mode production"
-  },
   "peerDependencies": {
-    "react": "*"
+    "react": "^16.8.6"
   },
   "devDependencies": {
-    "@babel/cli": "^7.7.0",
-    "@babel/core": "^7.7.0",
-    "@babel/preset-env": "^7.7.1",
-    "@babel/preset-react": "^7.7.0",
-    "babel-loader": "^8.0.6",
     "eslint": "^6.6.0",
     "eslint-plugin-react": "^7.16.0",
     "react": "^16.8.6",
