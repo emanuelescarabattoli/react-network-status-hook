@@ -17,10 +17,10 @@ The check will be done by send a request every `500` milliseconds to `https://dn
 
 ```
 import React from "react";
-import useNetworkState from "react-network-status-hook";
+import useNetworkStatus from "react-network-status-hook";
 
 const MyComponent = () => {
-  const isOnline = useNetworkState();
+  const isOnline = useNetworkStatus();
 
   return (
     isOnline ? <span>Online</span> : <span>Offline</span>
@@ -34,10 +34,10 @@ You can specify custom parameters for the check as shown here.
 
 ```
 import React from "react";
-import useNetworkState from "react-network-status-hook";
+import useNetworkStatus from "react-network-status-hook";
 
-const MyComponent = ("http://localhost:8000/", 1000) => {
-  const isOnline = useNetworkState();
+const MyComponent = () => {
+  const isOnline = useNetworkStatus("http://localhost:8000/", 1000);
 
   return (
     isOnline ? <span>Online</span> : <span>Offline</span>
